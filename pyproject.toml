@@ -26,3 +26,6 @@ line-length = 100
 
 [tool.isort]
 profile = "black"
+
+[tool.pylint.messages_control]
+disable=["missing-module-docstring"]
